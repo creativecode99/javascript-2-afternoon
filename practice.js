@@ -21,7 +21,7 @@ age: 28
 
 };
 
-me.name()
+alert(me.name); 
 ////////// PROBLEM 2 //////////
 
 /*
@@ -45,9 +45,9 @@ var favoriteThings = {
 
 //Code here
 
-let favoriteThings.car = lambo;
+ favoriteThings.car = 'lambo';
 
-let favoriteThings.brand = honda;
+ favoriteThings.brand = 'honda';
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -55,8 +55,10 @@ let favoriteThings.brand = honda;
 */
 
 //Code here
-let "Chicken Nuggets" = favoriteThings.food 
-let favoriteThings.food = "Chicken Nuggets"
+
+ favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
+
 
 
 ////////// PROBLEM 3 //////////
@@ -71,19 +73,20 @@ let favoriteThings.food = "Chicken Nuggets"
 
 //Code here
 var backPack = {
-  item: "firstPocket",
+  
   
 };
+let item = "firstPocket";
 
-backPack["firstPocket"_item] = "chapstick";
-backPack.color = black;
+backPack[item] = "chapstick";
+backPack.color = 'black';
 /*
 
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-backPack()
+alert(backPack);
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
@@ -111,9 +114,9 @@ var user2 = {
   Make that change without modifying the original object code above.
 */
 
-user2.name = "Bryan G. Smith";
-user2.email = "bryan.smith@devmounta.in";
 //Code Here
+user2.name = 'Bryan G. Smith';
+user2.email = 'bryan.smith@devmounta.in';
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
